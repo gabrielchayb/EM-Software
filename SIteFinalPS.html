@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="JSsite.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="corpo" style="background: url('iperettaMARCADAGUA.png'); background-attachment: fixed; ">
+        <div class="container">
+                <div class="row TOPO" style="padding-top: 30px; padding-right: 30px; padding-bottom: 80px; padding-left: 30px;">
+                    <div class="col-sm-4">
+                        <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" width="90px" src="http://www.antigo.ufu.br/sites/antigo.ufu.br/files/transparente%20azul03.png">
+                    </div>
+                    <div class="col-sm-4">
+                        <h1 style="text-align: center; font-size: 50px"><strong><u>Resumo do Ensino Médio</u></strong></h1>
+                    </div>
+                    <div style="padding-top: 25px" class="col-sm-4">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" width="100px" src="https://scontent.fudi1-2.fna.fbcdn.net/v/t31.0-8/26171543_10204044205182647_1397965778886415070_o.jpg?_nc_cat=100&_nc_oc=AQkgVDYYxKZ9IsrtSH-xAiqD3DUwkaa9rDbNl5ssHfHLwOACyybt9Cq6u_AAwnx6nGw&_nc_ht=scontent.fudi1-2.fna&oh=7467d4607ff9d8f543b4a5be043efefe&oe=5DB39D56">
+                            <p style="text-align: center; font-size: 20px">"Programação BRUTA, três códigos por dia."</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" style="background-color: #C0C0C0; border: 2px solid #50BFE6; border-radius: 5px;">
+                        <h3>Selecione a foŕmula:</h3>
+                        
+                        <ul>
+                            <il><button onload="fechadinho()" onclick="myFunction()">Algoritmo de Euclides (MDC)</button></il>
+                            <il><button onload="fechar2()" onclick="myFunction2()">Cálculo de Tensão</button></il>
+                            <il><button onload="fechar()" onclick="myFunction3()">Cálculo Equação do Segundo Grau</button></il>
+                            <il><button onload="fechar4()" onclick="myFunction4()">Equação Geral dos Gases</button></il>
+                            <il><button onload="fechar5()" onclick="myFunction5()">Quantidade de Calor</button></il>
+                            <il><button onload="fechar6()" onclick="myFunction6()">Energia Potencial Elástica</button></il>
+                            <il><button onload="fechar7()" onclick="myFunction7()">Frequência de Onda</button></il>
+                            <il><button onload="fechar8()" onclick="myFunction8()">Velocidade de Propagação</button></il>
+                            <il><button onload="fechar9()" onclick="myFunction9()">Equação de Torricelli</button></il>
+                            <il><button onload="fechar10()" onclick="myFunction10()">Concentração Molar</button></il>
+                            <il><button onload="fechar11()" onclick="myFunction11()">Densidade</button></il>
+                            <il><button onload="fechar12()" onclick="myFunction12()">Descobrir o termo n de uma PG</button></il>
+                            <il><button onload="fechar13()" onclick="myFunction13()">Soma dos termos de uma PG</button></il>
+                            <il><button onload="fechar14()" onclick="myFunction14()">Descobrir o termo n de uma PA</button></il>
+                            <il><button onload="fechar15()" onclick="myFunction15()">Soma dos termos de uma PA</button></il>
+                            <il><button onload="fechar16()" onclick="myFunction16()">Volume da Esfera</button></il>
+                            <il><button onload="fechar17()" onclick="myFunction17()">Cálculo de Potência</button></il>
+                            <il><button onload="fechar18()" onclick="myFunction18()">Cálculo de Energia Cinética</button></il>
+                            <il><button onload="fechar19()" onclick="myFunction19()">Cálculo de Pressão</button></il>
+                            <il><button onload="fechar20()" onclick="myFunction20()">Cálculo de Energia Potencial Gravitacional</button></il>
+                            <il><button onload="fechar21()" onclick="myFunction21()">Cálculo da Força de Empuxo</button></il>
+                            <il><button onload="fechar22()" onclick="myFunction22()">Cálculo de Espaço Final (M.U.V)</button></il>
+                            <il><button onload="fechar23()" onclick="myFunction23()">Concentração de uma mistura de soluções)</button></il>
+                            <il><button onload="fechar24()" onclick="myFunction24()">Diluição</button></il>
+                            <il><button onload="fechar25()" onclick="myFunction25()">Juros Compostos</button></il>
+                            <il><button onload="fechar26()" onclick="myFunction26()">Área de um Triangulo Equilátero</button></il>
+                            <il><button onload="fechar27()" onclick="myFunction27()">Área de um Triangulo Isóceles</button></il>
+                            <il><button onload="fechar28()" onclick="myFunction28()">Área de um Trapézio</button></il>
+                            <il><button onload="fechar29()" onclick="myFunction29()">Volume de um Paralelepípedo</button></il>
+                        </ul>
+                    </div>
+                    <div class="col-sm-8" style="background-color: white; border: 2px solid #50BFE6; border-radius: 5px;">
+                            <h2>As equações selecionadas aparecerão aqui:</h2>
+                            <p>OBS: Os valores decimais devem ser separados por ponto(".")</p>
+                            <p>OBS 2: Não usar números com expoente. (EX: 0.5 ao invés de 5.10^-1) </p>
+                            <div class="divs" id="myDIV">                      
+                                    <h2> Algoritmo de Euclides (MDC) </h2>
+                                    <br>
+                                    <p>Valor 1: <input type="text" id="a"> </p>
+                                    <p>Valor 2: <input type="text" id="b"> </p>
+                                    <button type="button" onclick="T1()">Cálculo MDC</button>
+                                    <p id="T1">Sem Resposta</p>
+                            </div>
+                            <div class="divs" id="myDIV2">
+                                    <h2> Cálculo de Tensão </h2>
+                                    <p>Informe os valores para obter a Tensão(V)</p>
+                                    <br>
+                                    <p>Resistência(Ohms): <input type="text" id="r-1"> </p>
+                                    <p>Corrente Elétrica(A):<input type="text" id="i-1"> </p>
+                                    <button type="button" onclick="T2()">Calcular Tensão</button>
+                                    <p id="T2">Sem Resposta</p>
+                            </div>
+                            <div class="divs" id="myDIV3">
+                                    <h2>Cálculo Equação do Segundo Grau</h2>
+                                    <p>OBS: Preencha os valores inexistentes com 0 e separe números decimais com "."</p>
+                                    <br>
+                                    <p><input size="2" type="text" id="x2">x² + <input size="2" type="text" id="x1"> x + <input size="2" type="text" id="lin"> = 0  </p>
+                                    <button type="button" onclick="T3()">Calcular Equação</button>
+                                    <p id="T3">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV4">
+                                    <h2> Equação Geral dos Gases </h2>
+                                    <p>Informe os valores para obter a Pressão(atm)</p>
+                                    <br>
+                                    <p>Volume(l): <input type="text" id="vol"> </p>
+                                    <p>n° de Mols:<input type="text" id="mol"> </p>
+                                    <p>Temperatura(°C): <input type="text" id="temp"> </p>
+                                    <button type="button" onclick="T4()">Calcular Pressão</button>
+                                    <p id="T4">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV5">
+                                    <h2> Quantidade de Calor </h2>
+                                    <p>Informe os valores para obter a Quantidade de Calor(cal)</p>
+                                    <br>
+                                    <p>Massa(g): <input type="text" id="m"> </p>
+                                    <p>Calor Específico(cal/g.°C):<input type="text" id="ce"> </p>
+                                    <p>Variação de Temperatura(°C): <input type="text" id="dt"> </p>
+                                    <button type="button" onclick="T5()">Calcular Valor</button>
+                                    <p id="T5">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV6">
+                                    <h2> Energia Potencial Elástica </h2>
+                                    <p>Informe os valores para obter o valor da energia(J) </p>
+                                    <br>
+                                    <p>Constante Elástica(N/m): <input type="text" id="k"> </p>
+                                    <p>Deformação(m):<input type="text" id="def"> </p>
+                                    <button type="button" onclick="T6()">Calcular Energia</button>
+                                    <p id="T6">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV7">
+                                    <h2> Frequência de Onda </h2>
+                                    <p>Informe os valores para obter a frequência(Hz) </p>
+                                    <br>
+                                    <p>Comprimento de Onda(m): <input type="text" id="lambda"> </p>
+                                    <p>Velocidade de Propagação(m/s): <input type="text" id="velp"> </p>
+                                    <button type="button" onclick="T7()">Calcular Frequência</button>
+                                    <p id="T7">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV8">
+                                    <h2> Velocidade de Propagação </h2>
+                                    <p>Informe os valores para obter a Velocidade(m/s) </p>
+                                    <br>
+                                    <p>Comprimento de Onda(m): <input type="text" id="l2"> </p>
+                                    <p>Frequência(Hz):<input type="text" id="hz"> </p>
+                                    <button type="button" onclick="T8()">Calcular Velocidade</button>
+                                    <p id="T8">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV9">
+                                    <h2> Equação de Torricelli</h2>
+                                    <p>Informe os valores para obter a velocidade final (m/s) </p>
+                                    <br>
+                                    <p>Velocidade Inicial(m/s): <input type="text" id="vo"> </p>
+                                    <p>Aceleração(m/s²):<input type="text" id="ac"> </p>
+                                    <p>Variação de Espaço(m): <input type="text" id="ds"> </p>
+                                    <button type="button" onclick="T9()">Calcular Velocidade</button>
+                                    <p id="T9">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV10">
+                                    <h2> Concentração Molar </h2>
+                                    <p>Informe os valores para obter </p>
+                                    <br>
+                                    <p>N° de mols da substância: <input type="text" id="mol2"> </p>
+                                    <p>Volume(L):<input type="text" id="litros"> </p>
+                                    <button type="button" onclick="T10()">Calcular Concentração</button>
+                                    <p id="T10">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV11">
+                                    <h2> Densidade </h2>
+                                    <p>Informe os valores para obter a Densidade </p>
+                                    <br>
+                                    <p>Massa (g): <input type="text" id="massa"> </p>
+                                    <p>Volume(L):<input type="text" id="litros2"> </p>
+                                    <button type="button" onclick="T11()">Calcular Densidade</button>
+                                    <p id="T11">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV12">
+                                    <h2> Descobrir o termo n de uma PG </h2>
+                                    <p>Informe os valores para obter o termo </p>
+                                    <br>
+                                    <p>a1: <input type="text" id="primeiro"> </p>
+                                    <p>Valor de n:<input type="text" id="enesimo"> </p>
+                                    <p>Razão da PG: <input type="text" id="razao"> </p>
+                                    <button type="button" onclick="T12()">Descobrir Termo</button>
+                                    <p id="T12">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV13">
+                                    <h2> Soma dos termos de uma PG </h2>
+                                    <p>Informe os valores para obter a soma </p>
+                                    <br>
+                                    <p>a1: <input type="text" id="pt"> </p>
+                                    <p>N° de termos:<input type="text" id="nt"> </p>
+                                    <p>Razão da PG: <input type="text" id="razao2"> </p>
+                                    <button type="button" onclick="T13()">Calcular Soma</button>
+                                    <p id="T13">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV14">
+                                    <h2> Descobrir o termo n de uma PA </h2>
+                                    <p>Informe os valores para obter o termo </p>
+                                    <br>
+                                    <p>a1: <input type="text" id="pa1"> </p>
+                                    <p>Valor de n:<input type="text" id="pa2"> </p>
+                                    <p>Razão da PA: <input type="text" id="pa3"> </p>
+                                    <button type="button" onclick="T14()">Descobrir Termo</button>
+                                    <p id="T14">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV15">
+                                    <h2> Soma dos termos de uma PA </h2>
+                                    <p>Informe os valores para obter a soma</p>
+                                    <br>
+                                    <p>a1: <input type="text" id="pa4"> </p>
+                                    <p>Valor do Enésimo Termo:<input type="text" id="pa5"> </p>
+                                    <p>N° de Termos: <input type="text" id="pa6"> </p>
+                                    <button type="button" onclick="T15()">Calcular Soma</button>
+                                    <p id="T15">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV16">
+                                    <h2> Volume da Esfera </h2>
+                                    <p>Informe os valores para obter o Volume(m³) </p>
+                                    <br>
+                                    <p>Informe o raio(m): <input type="text" id="resf"> </p>
+                                    <button type="button" onclick="T16()">Calcular Volume</button>
+                                    <p id="T16">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV17">
+                                    <h2> Cálculo de Potência </h2>
+                                    <p>Informe os valores para obter a Potência(W)</p>
+                                    <br>
+                                    <p>Corrente Elétrica(A): <input type="text" id="i-2"> </p>
+                                    <p>Tensão(V):<input type="text" id="u-1"> </p>
+                                    <button type="button" onclick="T17()">Calcular Potência</button>
+                                    <p id="T17">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV18">
+                                    <h2> Cálculo de Energia Cinética </h2>
+                                    <p>Informe os valores para obter a Energia(J)</p>
+                                    <br>
+                                    <p>Massa(kg): <input type="text" id="mas"> </p>
+                                    <p>Velocidade(m/s):<input type="text" id="vms"> </p>
+                                    <button type="button" onclick="T18()">Calcular Energia</button>
+                                    <p id="T18">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV19">
+                                    <h2> Cálculo de Pressão </h2>
+                                    <p>Informe os valores para obter a Pressão(N/m²)</p>
+                                    <br>
+                                    <p>Força(N): <input type="text" id="f-1"> </p>
+                                    <p>Área(m²):<input type="text" id="a-1"> </p>
+                                    <button type="button" onclick="T19()">Calcular Pressão</button>
+                                    <p id="T19">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV20">
+                                    <h2> Cálculo de Energia Potencial Gravitacional </h2>
+                                    <p>Informe os valores para obter a Energia(J)</p>
+                                    <p>OBS: Para os cálculos, a Aceleração da Gravidade foi adotada como 10m/s²</p>
+                                    <br>
+                                    <p>Massa(kg): <input type="text" id="m-2"> </p>
+                                    <p>Altura(m):<input type="text" id="h-1"> </p>
+                                    <button type="button" onclick="T20()">Calcular Energia</button>
+                                    <p id="T20">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV21">
+                                    <h2> Cálculo da Força de Empuxo </h2>
+                                    <p>Informe os valores para obter a Força(N)</p>
+                                    <p>OBS: Para os cálculos, a Aceleração da Gravidade foi adotada como 10m/s²</p>
+                                    <br>
+                                    <p>Densidade do Líquido(kg/m³): <input type="text" id="D-líquido"> </p>
+                                    <p>Volume do Sólido Submerso(m³):<input type="text" id="vss"> </p>
+                                    <button type="button" onclick="T21()">Calcular Força</button>
+                                    <p id="T21">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV22">
+                                    <h2> Cálculo de Espaço Final (M.U.V) </h2>
+                                    <p>Informe os valores para obter o Espaço Final(m)</p>
+                                    <br>
+                                    <p>Espaço Inicial(m): <input type="text" id="esp1"> </p>
+                                    <p>Velocidade Inicial(m/s):<input type="text" id="vo1"> </p>
+                                    <p>Instante t(s):<input type="text" id="temp1"> </p>
+                                    <p>Aceleração(m/s²):<input type="text" id="ac1"> </p>
+                                    <button type="button" onclick="T22()">Calcular Espaço Final</button>
+                                    <p id="T22">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV23">
+                                    <h2> Concentração de uma mistura de soluções </h2>
+                                    <p>Informe os valores para obter a concentração(mol/l(m)</p>
+                                    <br>
+                                    <p>Concentração 1 (mol/l): <input type="text" id="con1"> </p>
+                                    <p>Volume 1 (l):<input type="text" id="vl1"> </p>
+                                    <p>Concentração 2 (mol/l):<input type="text" id="con2"> </p>
+                                    <p>Volume 2 (l):<input type="text" id="vl2"> </p>
+                                    <button type="button" onclick="T23()">Calcular Concentração Final</button>
+                                    <p id="T23">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV24">
+                                    <h2> Diluição </h2>
+                                    <p>Informe os valores para obter a concentração(mol/l) após diluir</p>
+                                    <br>
+                                    <p>Concentração (mol/l): <input type="text" id="con3"> </p>
+                                    <p>Volume Inicial (l):<input type="text" id="vl4"> </p>
+                                    <p>Volume Final (l):<input type="text" id="vl3"> </p>
+                                    <button type="button" onclick="T24()">Calcular Concentração Final</button>
+                                    <p id="T24">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV25">
+                                    <h2> Juros Compostos </h2>
+                                    <p>Informe os valores para obter o montante(R$)</p>
+                                    <br>
+                                    <p>Capital Inicial(R$): <input type="text" id="cin"> </p>
+                                    <p>Taxa de Juros(%a.d.):<input type="text" id="jur"> </p>
+                                    <p>N° de dias:<input type="text" id="tre"> </p>
+                                    <button type="button" onclick="T25()">Calcular Montante</button>
+                                    <p id="T25">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV26">
+                                    <h2> Área de um Triangulo Equilátero </h2>
+                                    <p>Informe os valores para obter a área(m²)</p>
+                                    <br>
+                                    <p>Lado(m): <input type="text" id="Lado"> </p>
+                                    <button type="button" onclick="T26()">Calcular Área</button>
+                                    <p id="T26">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV27">
+                                    <h2> Área de um Triangulo Isóceles </h2>
+                                    <p>Informe os valores para obter a área(m²)</p>
+                                    <br>
+                                    <p>Lado Diferente(m): <input type="text" id="ldif"> </p>
+                                    <p>Altura(m): <input type="text" id="alt"> </p>
+                                    <button type="button" onclick="T27()">Calcular Área</button>
+                                    <p id="T27">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV28">
+                                    <h2> Área de um Trapézio </h2>
+                                    <p>Informe os valores para obter a área(m²)</p>
+                                    <br>
+                                    <p>Base Maior(m): <input type="text" id="Base Maior"> </p>
+                                    <p>Base Menor(m): <input type="text" id="Base Menor"> </p>
+                                    <p>Altura(m): <input type="text" id="Altura do Trapézio"> </p>
+                                    <button type="button" onclick="T28()">Calcular Área</button>
+                                    <p id="T28">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                            <div id="myDIV29">
+                                    <h2> Volume de um Paralelepípedo </h2>
+                                    <p>Informe os valores para obter o volume(m³)</p>
+                                    <br>
+                                    <p>Lado A(m): <input type="text" id="ladoa"> </p>
+                                    <p>Lado B(m): <input type="text" id="ladob"> </p>
+                                    <p>Lado C(m): <input type="text" id="ladoc"> </p>
+                                    <button type="button" onclick="T29()">Calcular Volume</button>
+                                    <p id="T29">Sem Resposta</p>
+                                    <hr>
+                            </div>
+                    </div>
+                </div>
+                <div class="row RESTO">
+                    <div class="col-sm-12" style="padding-top: 250px">
+                            <pre>MIT License
+
+                        Copyright (c) 2019 Felipe Narimatsu Presti, Victor Gabriel and Victor Costa 
+                                        
+                        Permission is hereby granted, free of charge, to any person obtaining a copy
+                        of this software and associated documentation files (the "Software"), to deal
+                        in the Software without restriction, including without limitation the rights
+                        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                        copies of the Software, and to permit persons to whom the Software is
+                        furnished to do so, subject to the following conditions:
+                        
+                        The above copyright notice and this permission notice shall be included in all
+                        copies or substantial portions of the Software.
+                                        
+                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                        SOFTWARE.</pre>
+                    </div>
+                </div>
+            </div>
+</body>
+
+
+</html>
