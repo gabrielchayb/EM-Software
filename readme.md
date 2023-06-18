@@ -3,3 +3,5 @@ EM Software - Software que dá display automático do resultado, com apenas 2 pa
 Desenvolvido de maneira manual com JavaScript puro, MathSqrt e Bootstrap. 
 
 Necessário customização, adicionar mais fórmulas, botão com um "x" e mostrar a fórmula após a resposta e fazer deploy. (netlify)
+
+Inicializar: abra o arquivo SiteFinalPS.html e abra com o liveserver;
